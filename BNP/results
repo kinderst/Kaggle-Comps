@@ -1,0 +1,42 @@
+, "min_child_weight" = 1
+, "max_delta_step" = 1
+, "subsample" = 0.9
+, "colsample_bytree" = 0.7
+
+[1] "eta: 0.01 gamma: 0 maxDepth: 7 logloss: 0.466889 bestiter: 1180"  
+ [2] "eta: 0.01 gamma: 0 maxDepth: 9 logloss: 0.466693 bestiter: 923"   
+ [3] "eta: 0.01 gamma: 0 maxDepth: 11 logloss: 0.466531 bestiter: 691"  
+ [4] "eta: 0.01 gamma: 0.5 maxDepth: 7 logloss: 0.467978 bestiter: 978" 
+ [5] "eta: 0.01 gamma: 0.5 maxDepth: 9 logloss: 0.466616 bestiter: 889" 
+ [6] "eta: 0.01 gamma: 0.5 maxDepth: 11 logloss: 0.466506 bestiter: 670"
+ [7] "eta: 0.01 gamma: 3 maxDepth: 7 logloss: 0.467518 bestiter: 998"   
+ [9] "eta: 0.01 gamma: 3 maxDepth: 9 logloss: 0.46695 bestiter: 863"    
+[10] "eta: 0.01 gamma: 3 maxDepth: 11 logloss: 0.467275 bestiter: 695"
+
+[7] "eta: 0.005 gamma: 0 maxDepth: 8 logloss: 0.466197 bestiter: 2077" 
+[1] "eta: 0.005 gamma: 0 maxDepth: 9 logloss: 0.465328 bestiter: 1774"
+[1] "eta: 0.005 gamma: 0 maxDepth: 10 logloss: 0.465082 bestiter: 1627" -- 3 ensamble 0.45877 kaggle
+[3] "eta: 0.005 gamma: 0.5 maxDepth: 9 logloss: 0.465492 bestiter: 1888"
+[5] "eta: 0.005 gamma: 1 maxDepth: 9 logloss: 0.46606 bestiter: 1607"   
+[6] "eta: 0.005 gamma: 1.5 maxDepth: 9 logloss: 0.466236 bestiter: 1613"
+[1] "eta: 0.005 gamma: 0 maxDepth: 11 logloss: 0.465914 bestiter: 1319"  
+[3] "eta: 0.005 gamma: 0.5 maxDepth: 11 logloss: 0.466079 bestiter: 1321"
+[5] "eta: 0.005 gamma: 1 maxDepth: 11 logloss: 0.466407 bestiter: 1300"  
+[6] "eta: 0.005 gamma: 1 maxDepth: 11 logloss: 0.466407 bestiter: 1318" 
+
+MINOR FEATURE SELECTION
+v38, v3, v22, v24, v72, v52, v125, v91, v75, v74, v28, v78
+, "min_child_weight" = 1
+, "max_delta_step" = 1
+, "subsample" = 0.9
+, "colsample_bytree" = 0.7
+
+[1] "eta: 0.01 gamma: 0 maxDepth: 9 logloss: 0.468039 bestiter: 859"
+[3] "eta: 0.01 gamma: 0 maxDepth: 11 logloss: 0.468774 bestiter: 647"
+[5] "eta: 0.01 gamma: 1 maxDepth: 9 logloss: 0.46893 bestiter: 759"
+[7] "eta: 0.01 gamma: 1 maxDepth: 11 logloss: 0.469268 bestiter: 667"
+
+colsubsample_bytree = 0.9
+
+[1] "eta: 0.01 gamma: 0 maxDepth: 9 logloss: 0.468263 bestiter: 846"
+
